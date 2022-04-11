@@ -50,7 +50,7 @@ for company in companies[:5]:
 stock_table = soup.findAll('tbody')
 
 stock_table = stock_table[0]
-
+ 
 rows = stock_table.findAll('tr')
 
 for row in rows[:5]:
